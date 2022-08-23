@@ -1,0 +1,7 @@
+//for
+
+const powerlifting = ['supino', 'terra','agachamento'];
+
+for(let pedidas = 0; pedidas < powerlifting.length; pedidas++ ) {
+console.log(` Para realizar o esporte de porwerlifting você precisa realizar o movimento: ${powerlifting[pedidas]} `);
+};
