@@ -20,14 +20,15 @@
 console.log(multiplicar(3, 5));
 
 
+//Refatoação
 
   multiplicar = (x, y) => x * y;
 
 console.log(multiplicar(3, 5));
 
-// Arrow function um parâmetro
- const showName = name => name;
+// atributo/propriedade com apenas um parâmetro
 
- console.log(showName('BRUNA'));
- 
+const showName = name => name.length;
+
+console.log(showName('Bruna'));
  
