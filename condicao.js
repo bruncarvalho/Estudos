@@ -4,11 +4,6 @@
 
 // Lista: Banana, morango e leite.
 
-const banana = true;
-const morango = true;
-const leite = true;
-
-
 function vitamina (ingredient1, ingredient2) {
   if (ingredient1 == "banana" && ingredient2 == "leite") {
     return `Vitamina de ${ingredient1} com ${ingredient2}`
