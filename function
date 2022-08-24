@@ -1,0 +1,33 @@
+//function
+
+ function sum (value1, value2, value3) {
+   return value1 + value2 + value3;
+ }
+
+ const result = sum(3, 5, 8);
+
+ console.log(result);
+
+
+
+// Arrow Function
+// arrow function mais de um parâmetro
+
+  multiplicar = (x, y) => {
+  return x * y
+};
+
+console.log(multiplicar(3, 5));
+
+
+
+  multiplicar = (x, y) => x * y;
+
+console.log(multiplicar(3, 5));
+
+// Arrow function um parâmetro
+ const showName = name => name;
+
+ console.log(showName('BRUNA'));
+ 
+ 
