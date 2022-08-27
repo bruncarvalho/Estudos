@@ -5,3 +5,21 @@ const powerlifting = ['supino', 'terra','agachamento'];
 for(let pedidas = 0; pedidas < powerlifting.length; pedidas++ ) {
 console.log(` Para realizar o esporte de porwerlifting você precisa realizar o movimento: ${powerlifting[pedidas]} `);
 };
+
+//forEach
+
+const family = [{ name: 'Gilson',
+age: 61},
+{name: 'Dirce',
+age: 62},
+{name:'Bruna',
+age: 34},
+{name: 'Nara',
+age: 29},
+{name: 'Taynara',
+age: 25}]
+
+
+family.forEach(object =>{
+  console.log(object.name + " tem " + object.age +" anos de idade" );
+});
