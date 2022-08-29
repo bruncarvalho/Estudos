@@ -23,3 +23,23 @@ age: 25}]
 family.forEach(object =>{
   console.log(object.name + " tem " + object.age +" anos de idade" );
 });
+
+//forEach com os 3 parâmetros:
+
+const family = [{ name: 'Gilson',
+age: 61},
+{name: 'Dirce',
+age: 62},
+{name:'Bruna',
+age: 34},
+{name: 'Nara',
+age: 29},
+{name: 'Taynara',
+age: 25}]
+
+
+// 1º parâmetro trás os elementos do objeto, 2º parâmetro trás a posição de cada objeto, 3º parâmetro trás o array.
+family.forEach((object, indice, meuArray) =>{
+  console.log(object.name+ " tem " + object.age +" anos de idade", 'está na posição:',indice, meuarray);
+});
+  
