@@ -1,0 +1,9 @@
+//Métodos Array
+
+( )map()
+( )filter()
+( )reduce()
+( )every()
+( )some()
+( )find()
+( )includes()
